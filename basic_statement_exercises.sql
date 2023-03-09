@@ -16,10 +16,13 @@ show create table albums;
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=latin1 */
 
+select id
+from albums;
+
 -- The primary key for the albums table is `id`
 
 -- 3. What does the column named 'name' represent?
-Select name
+Select *
 from albums;
 -- The name of the album. 
 
