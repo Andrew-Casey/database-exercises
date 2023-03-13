@@ -58,3 +58,12 @@ group by item_name
 having sum_quant > 100
 order by sum_quant desc
 limit 5;
+
+-- 13 mar
+create table quote (
+id int not null auto_increment,
+author varchar(50) not null, 
+content varchar(240) not null,
+primary key(id));
+
+describe quote; 
