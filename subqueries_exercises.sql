@@ -1,7 +1,7 @@
 show databases;
 use employees;
 select database();
-
+show tables;
 -- Find all the current employees with the same hire date as employee 101010 using a subquery.
 select *
 from employees;
